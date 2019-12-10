@@ -15,10 +15,17 @@ up:
 
 commands:
   test:
+<<<<<<< HEAD
     desc: run go tests
     run: go test -cover -race ./...
   lint:
     desc: run go linters
+=======
+    desc: "poipoi"
+    run: go test -cover -race ./...
+  lint:
+    desc: "poipoi"
+>>>>>>> 12a79bd316d5d398c91ae8bdcfb77843f5506338
     run: golangci-lint run
 
 open:
